@@ -1,3 +1,13 @@
+<div id="div_manual">
+<iframe name="manual"
+		src="latest"
+        height="800"
+        width="100%"
+        frameborder="1"
+        scrolling="auto">
+</iframe>
+</div>
+
 {%- set popular_posts = popular_posts_json(theme.related_posts.params, page) %}
 {%- if popular_posts.json and popular_posts.json.length > 0 %}
   <div class="popular-posts-header">{{ theme.related_posts.title or __('post.related_posts') }}</div>
